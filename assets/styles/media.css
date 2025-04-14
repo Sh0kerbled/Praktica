@@ -1,5 +1,10 @@
 @media (max-width: 500px) {
 
+    html,
+        body {
+            overflow-x: hidden;
+        }
+
     body{
         padding-top: env(safe-area-inset-top);
         width: 100vw;
